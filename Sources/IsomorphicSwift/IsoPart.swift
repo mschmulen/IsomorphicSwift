@@ -1,8 +1,6 @@
 import Foundation
 
-public struct IsoPart : Codable {	
-	var name:String
-	var description:String
-	
-	var price:Int
+public struct IsoPart : Codable {
+	public var name:String
+	public var description:String
 }
